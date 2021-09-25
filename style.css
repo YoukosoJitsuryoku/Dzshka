@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
+}
+
+.container {
+    width: 100%;
+    margin: 0;
+
+}
+
+.header {
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0;
+}
+
+.logo {
+    padding: 0 80px;
+}
+
+.nav {
+    display: flex;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    padding: 0 50px;
+}
+
+.nav__link {
+    margin-right: 35px;
+    color: #fff;
+    text-decoration: none;
+    opacity: 0.6;
+    transition: opacity 0.3s linear;
+}
+
+.nav__link:hover {
+    color: #fff;
+    opacity: 1;
+}
+
+.intro {
+    display: flex;
+    background: url(img/космос.jpg) no-repeat;
+    background-size: cover;
+    height: 1100px;
+    padding-top: 120px;
+}
+
+.intro__inner {
+    padding-left: 90px;
+    color: #fff;
+    font-size: 22px;
+    line-height: 1.2;
+    width: 710px;
+}
+
+.btn {
+    display: inline-block;
+    vertical-align: top;
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 70px;
+    border-radius: 3%;
+    border: solid 1px;
+    cursor: pointer;
+    text-align: center;
+    transition: background 0.3s linear;
+}
+
+.btn--color {
+    background: none;
+}
+
+.btn--color:hover {
+    background: black;
+}
+
+.romb {
+    margin: auto;
+    display: flex;
+    width: 400px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #FFF;
+    box-sizing: border-box;
+    transform: rotate(-135deg);
+    
+}
+
+.krug {
+    width: 370px;
+    height: 370px;
+    border: 2px solid #FFF;
+    box-sizing: border-box;
+    border-radius: 50%;
+}
+
+.raketa {
+    border-radius: 50%;
+    height: 366px;
+    width: 366px;
+    transform: rotate(135deg);
+}
+
+.intro__inner_1 {
+    float: right;
+    padding-right: 90px;
+    text-align: right;
+    color: #fff;
+    font-size: 22px;
+    line-height: 1.2;
+    width: 710px;
+}
